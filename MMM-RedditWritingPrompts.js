@@ -40,7 +40,7 @@ Module.register("MMM-RedditWritingPrompts", {
 		})
 	},
 	getStyles: function () {
-		return ["MM-WP.css"];
+		return ["MMM-RedditWritingPrompts.css"];
 	},
 
 
