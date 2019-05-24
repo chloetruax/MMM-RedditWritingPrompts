@@ -1,0 +1,15 @@
+{
+  "name": "mmm-reddit-writing-prompts",
+  "version": "1.0.0",
+  "description": "Magic Mirror Package to pull some of the hot posts",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
