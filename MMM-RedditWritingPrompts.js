@@ -29,6 +29,7 @@ Module.register("MMM-RedditWritingPrompts", {
 		fetch('https://www.reddit.com/r/writingprompts/hot.json')
 		.then(res=> res.json())
 		.then(json=> json.data.children)
+		.then(posts=>posts.filter(p=>!p.data.stickied))
 		.then(posts=> posts.slice(self.config.startPost, self.config.startPost + self.config.numPosts))
 		.then(posts=>{
 			posts.forEach((v, i) => {
