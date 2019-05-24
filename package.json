@@ -1,15 +1,12 @@
 {
   "name": "mmm-reddit-writing-prompts",
   "version": "1.0.0",
-  "description": "Magic Mirror Package to pull some of the hot posts",
-  "main": "index.js",
+  "description": "Magic Mirror Package to pull some of the hot posts from Reddit's r/WritingPrompts",
+  "main": "MMM-RedditWritingPrompts.js",
   "scripts": {
-    "start": "node index",
+    "start": "node MMM-RedditWritingPrompts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "request": "^2.88.0"
-  }
+  "license": "ISC"
 }

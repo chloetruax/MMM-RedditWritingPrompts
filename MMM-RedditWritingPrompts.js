@@ -7,7 +7,7 @@
  * MIT Licensed.
  */
 
-Module.register("MM-WP", {
+Module.register("MMM-RedditWritingPrompts", {
 
 	// Default module config.
 	defaults: {
